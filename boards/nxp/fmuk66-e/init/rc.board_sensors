@@ -11,7 +11,7 @@ bmm150 -I -R 10 start
 # Onboard I2C baros
 bmp280 -I start
 
-# Internal SPI (accel + mag)
+# Internal SPI (accel + gyro)
 bmi088 -A -R 4 -s start
 bmi088 -G -R 4 -s start
 
